@@ -20,9 +20,9 @@ public class Test2 {
             return false;
         }
 
-        Map<Character, String> h1 = new HashMap<>();
+        Map<Character, String> h1 = new HashMap<Character, String>();
 
-        Map<String, Character> h2 = new HashMap<>();
+        Map<String, Character> h2 = new HashMap<String, Character>();
         for (int i = 0; i < words.length; i++) {
             char c = pattern.charAt(i);
             String word = words[i];

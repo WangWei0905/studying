@@ -10,9 +10,9 @@ package com.person.studying.day3;
  * 假设环境不允许存储 64 位整数（有符号或无符号）。
  *
  */
-class Solution {
+class Reverse {
     public static void main(String[] args) {
-        System.out.println(new Solution().reverse(-123));
+        System.out.println(new Reverse().reverse(-123));
     }
     public int reverse(int x) {
         int rev = 0;

@@ -31,7 +31,7 @@ import java.util.Set;
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         // 存储窗口中元素
-        Set<Character> occ = new HashSet<>();
+        Set<Character> occ = new HashSet<Character>();
         int n = s.length();
         //左指针 和结果
         int rk = -1, ans =0;
